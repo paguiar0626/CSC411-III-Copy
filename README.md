@@ -1,12 +1,12 @@
 # **Specification**
-•	Array2 must be implemented as a polymorphic structure with the following qualities:
+## •	Array2 must be implemented as a polymorphic structure with the following qualities:
 *- Be able to store multiple types of data (e.g., u32, &Str, String, etc.).
 *- u32 or above, being the most probably for image storage.
 *- Represent 2-dimensional data in either 2d or 1d implementation.
 *-	Uses Vec<T>.
 *-	Implement iterator.
 *-	To be used by another function or program.
-#**Design**
+# **Design**
 • Data Structure
 *-	A public structure named “Array2” of T type.
 **▪	Its 3 properties are:
@@ -35,5 +35,5 @@
 *-	In 
 • How does this let me solve the problem?	
 *-	Given our plans, the 2d data (such as the Sudoku grid) would be able to be inserted into an empty Array2 object by providing three arguments (row, column numbers and data value) to the insert method. Other programs and functions can then iteratively access the contents of an Array2 object.
-#**Testing**
+# **Testing**
 In terms of testing, the structure is able to take arguments for width and height and assigning to their same-named attributes. The rest of the plans needs further testing. Iterator syntax was adopted from lecture notes.
