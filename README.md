@@ -1,4 +1,4 @@
-#**Specification**#
+# **Specification**
 •	Array2 must be implemented as a polymorphic structure with the following qualities:
 *- Be able to store multiple types of data (e.g., u32, &Str, String, etc.).
 *- u32 or above, being the most probably for image storage.
