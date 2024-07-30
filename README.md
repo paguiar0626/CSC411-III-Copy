@@ -1,11 +1,11 @@
 # **Specification**
 •	Array2 must be implemented as a polymorphic structure with the following qualities:
-* - Be able to store multiple types of data (e.g., u32, &Str, String, etc.).
-*- u32 or above, being the most probably for image storage.
-*- Represent 2-dimensional data in either 2d or 1d implementation.
-*-	Uses Vec<T>.
-*-	Implement iterator.
-*-	To be used by another function or program.
+* Be able to store multiple types of data (e.g., u32, &Str, String, etc.).
+* u32 or above, being the most probably for image storage.
+* Represent 2-dimensional data in either 2d or 1d implementation.
+*	Uses Vec<T>.
+*	Implement iterator.
+*	To be used by another function or program.
 # **Design**
 • Data Structure
 *-	A public structure named “Array2” of T type.
